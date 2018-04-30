@@ -1,0 +1,71 @@
+﻿<Window x:Class="LabC_4_5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:LabC_4_5"
+        mc:Ignorable="d"
+        Title="New document" Height="450" Width="800" WindowStartupLocation="CenterScreen" MinWidth="800" MinHeight="450" Icon="Resources/iconM.ico">
+    <Grid Background="LightGray">
+        <StackPanel>
+            <Menu Height="30" Background= "#ACE1AF" VerticalAlignment="Top">
+                <MenuItem x:Name="_FileMenu" Header="File" Height="30">
+                    <MenuItem x:Name="_NewProjectMenu" Header="New Project" Click="ItmMenuNew_Click"></MenuItem>
+                    <MenuItem x:Name="_OpenProjectMenu" Header="Open Project" Click="ItmMenuOpen_Click"></MenuItem>
+                    <MenuItem x:Name="_SaveAsMenu" Header="Save as" Click="ItmMenuSaveAs_Click"></MenuItem>
+                    <Separator/>
+                    <MenuItem x:Name="_ExitMenu" Header="Exit" Click="ItmMenuExit_Click"></MenuItem>
+                </MenuItem>
+                <MenuItem x:Name="_EditMenu" Header="Edit">
+                    <MenuItem x:Name="_CutMenu" Header="Cut" Click="Cut_Click"></MenuItem>
+                    <MenuItem x:Name="_CopyMenu" Header="Copy" Click="Copy_Click"></MenuItem>
+                    <MenuItem x:Name="_PasteMenu" Header="Paste" Click="Paste_Click"></MenuItem>
+                    <MenuItem x:Name="_DeleteAllMenu" Header="Delete All" Click="DeleteAll_Click"></MenuItem>
+                </MenuItem>
+                <MenuItem x:Name="_HelpMenu" Header="Help">
+                    <MenuItem x:Name="_AboutMenu" Header="About" Click="About_Click"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="RU" Click="RU_Click"></MenuItem>
+                <MenuItem Header="EN" Click="EN_Click"></MenuItem>
+            </Menu>
+        </StackPanel>
+        <ToolBarTray x:Name="MainMenu2" Height="32" VerticalAlignment="Top" Margin="0,30,0,0" Background="#ACE1AF"/>
+        <Image Source="Resources/Bold.png" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="428,31,0,0"></Image>
+        <ToggleButton HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="30" Margin="428,31,0,0" BorderThickness="0" Background="Transparent" Click="Bold_Click" ></ToggleButton>
+        <Image Source="Resources/Italic.png" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="454,31,0,0"></Image>
+        <ToggleButton HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="30" Margin="454,31,0,0" BorderThickness="0" Background="Transparent" Click="Italic_Click"></ToggleButton>
+        <Image Source="Resources/Underline.png" Height="30" Width="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="481,31,0,0"></Image>
+        <ToggleButton HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="30" Margin="481,31,0,0" BorderThickness="0" Background="Transparent" Click="UnderLine_Click"></ToggleButton>
+        <Label x:Name="_FontsMenu" Content="Fonts" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="2,33,0,0" Width="60"/>
+        <ComboBox x:Name="FontSelect" ItemsSource="{Binding Source={x:Static Fonts.SystemFontFamilies}}" Height="24" Width="140" VerticalAlignment="Top" Margin="67,35,0,0" HorizontalAlignment="Left"/>
+        <Label x:Name="_SizeMenu" Content="Size" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="210,33,0,0" Width="50"/>
+        <ComboBox x:Name="FontSize" HorizontalAlignment="Left" VerticalAlignment="Top" Width="40" Height="24" Margin="260,34,0,0">
+            <ComboBoxItem Content="8" ContentStringFormat="8" Selected="ItmSizeFont_Selected8"/>
+            <ComboBoxItem Content="10" ContentStringFormat="10" Selected="ItmSizeFont_Selected10"/>
+            <ComboBoxItem Content="12" ContentStringFormat="12" Selected="ItmSizeFont_Selected12"/>
+            <ComboBoxItem Content="14" ContentStringFormat="14" Selected="ItmSizeFont_Selected14"/>
+            <ComboBoxItem Content="16" ContentStringFormat="16" Selected="ItmSizeFont_Selected16"/>
+            <ComboBoxItem Content="18" ContentStringFormat="18" Selected="ItmSizeFont_Selected18"/>
+            <ComboBoxItem Content="36" ContentStringFormat="36" Selected="ItmSizeFont_Selected36"/>
+        </ComboBox>
+        <Label x:Name="_ColorMenu" Content="Color" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="307,33,0,0"/>
+        <ComboBox x:Name="FontColor" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="24" Margin="348,34,0,0">
+            <ComboBoxItem Content="Black" Background="Black" Height="20" Selected="ItmColorFontBlack_Selected"/>
+            <ComboBoxItem Content="Red" Background="Red" Height="20" Selected="ItmColorFontRed_Selected"/>
+            <ComboBoxItem Content="Orange" Background="Orange" Height="20" Selected="ItmColorFontOrange_Selected"/>
+            <ComboBoxItem Content="Yellow" Background="Yellow" Height="20" Selected="ItmColorFontYellow_Selected"/>
+            <ComboBoxItem Content="Green" Background="Green" Height="20" Selected="ItmColorFontGreen_Selected"/>
+            <ComboBoxItem Content="Blue" Background="Blue" Height="20" Selected="ItmColorFontBlue_Selected"/>
+            <ComboBoxItem Content="Violet" Background="Violet" Height="20" Selected="ItmColorFontViolet_Selected"/>
+            <ComboBoxItem Content="White" Background="White" Height="20" Selected="ItmColorFontWhite_Selected"/>
+        </ComboBox>
+        <RichTextBox TextChanged="Text_Checked" x:Name="rtbEditor" FontSize="16" BorderThickness="1"
+                         Margin="0,63,0,30" MinWidth="600" MaxWidth="600" MinHeight="320" FontFamily="{Binding ElementName=FontSelect, Path=SelectedItem}" BorderBrush="Black" SelectionBrush="White">
+        </RichTextBox>
+        <ToolBarTray x:Name="StausBarBottom" VerticalAlignment="Bottom" Height="30" Background="#ACE1AF"/>
+        <DockPanel Height="30" VerticalAlignment="Bottom">
+            <TextBlock Name="StatusBarTextBlock" Width="300" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="2,0,0,0"></TextBlock>
+        </DockPanel>
+    </Grid>
+</Window>

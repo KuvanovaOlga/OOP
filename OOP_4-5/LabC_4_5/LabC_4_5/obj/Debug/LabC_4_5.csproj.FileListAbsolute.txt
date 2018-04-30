@@ -1,0 +1,45 @@
+E:\Projects\LabC_4_5\LabC_4_5\bin\Debug\LabC_4_5.exe.config
+E:\Projects\LabC_4_5\LabC_4_5\bin\Debug\LabC_4_5.exe
+E:\Projects\LabC_4_5\LabC_4_5\bin\Debug\LabC_4_5.pdb
+E:\Projects\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.csprojResolveAssemblyReference.cache
+E:\Projects\LabC_4_5\LabC_4_5\obj\Debug\MainWindow.g.cs
+E:\Projects\LabC_4_5\LabC_4_5\obj\Debug\App.g.cs
+E:\Projects\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5_MarkupCompile.cache
+E:\Projects\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5_MarkupCompile.lref
+E:\Projects\LabC_4_5\LabC_4_5\obj\Debug\MainWindow.baml
+E:\Projects\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.g.resources
+E:\Projects\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.Properties.Resources.resources
+E:\Projects\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.csproj.GenerateResource.cache
+E:\Projects\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.csproj.CoreCompileInputs.cache
+E:\Projects\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.exe
+E:\Projects\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.pdb
+D:\LabC_4_5\LabC_4_5\bin\Debug\LabC_4_5.exe.config
+D:\LabC_4_5\LabC_4_5\bin\Debug\LabC_4_5.exe
+D:\LabC_4_5\LabC_4_5\bin\Debug\LabC_4_5.pdb
+D:\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.csprojResolveAssemblyReference.cache
+D:\LabC_4_5\LabC_4_5\obj\Debug\MainWindow.g.cs
+D:\LabC_4_5\LabC_4_5\obj\Debug\App.g.cs
+D:\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5_MarkupCompile.cache
+D:\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5_MarkupCompile.lref
+D:\LabC_4_5\LabC_4_5\obj\Debug\MainWindow.baml
+D:\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.g.resources
+D:\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.Properties.Resources.resources
+D:\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.csproj.GenerateResource.cache
+D:\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.csproj.CoreCompileInputs.cache
+D:\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.exe
+D:\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.pdb
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №4-5\LabC_4_5\LabC_4_5\bin\Debug\LabC_4_5.exe.config
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №4-5\LabC_4_5\LabC_4_5\bin\Debug\LabC_4_5.exe
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №4-5\LabC_4_5\LabC_4_5\bin\Debug\LabC_4_5.pdb
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №4-5\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.csprojResolveAssemblyReference.cache
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №4-5\LabC_4_5\LabC_4_5\obj\Debug\MainWindow.g.cs
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №4-5\LabC_4_5\LabC_4_5\obj\Debug\App.g.cs
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №4-5\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5_MarkupCompile.cache
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №4-5\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5_MarkupCompile.lref
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №4-5\LabC_4_5\LabC_4_5\obj\Debug\MainWindow.baml
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №4-5\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.g.resources
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №4-5\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.Properties.Resources.resources
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №4-5\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.csproj.GenerateResource.cache
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №4-5\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.csproj.CoreCompileInputs.cache
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №4-5\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.exe
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №4-5\LabC_4_5\LabC_4_5\obj\Debug\LabC_4_5.pdb
