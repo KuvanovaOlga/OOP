@@ -1,0 +1,10 @@
+D:\OOP_1\OOP_1\bin\Debug\OOP_1.exe.config
+D:\OOP_1\OOP_1\bin\Debug\OOP_1.exe
+D:\OOP_1\OOP_1\bin\Debug\OOP_1.pdb
+D:\OOP_1\OOP_1\obj\Debug\OOP_1.csprojResolveAssemblyReference.cache
+D:\OOP_1\OOP_1\obj\Debug\OOP_1.Form1.resources
+D:\OOP_1\OOP_1\obj\Debug\OOP_1.Properties.Resources.resources
+D:\OOP_1\OOP_1\obj\Debug\OOP_1.csproj.GenerateResource.Cache
+D:\OOP_1\OOP_1\obj\Debug\OOP_1.csproj.CoreCompileInputs.cache
+D:\OOP_1\OOP_1\obj\Debug\OOP_1.exe
+D:\OOP_1\OOP_1\obj\Debug\OOP_1.pdb

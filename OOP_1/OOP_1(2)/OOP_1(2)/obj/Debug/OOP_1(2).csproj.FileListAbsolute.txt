@@ -1,0 +1,20 @@
+C:\Users\user\source\repos\OOP_1(2)\OOP_1(2)\obj\Debug\OOP_1(2).csprojResolveAssemblyReference.cache
+C:\Users\user\source\repos\OOP_1(2)\OOP_1(2)\obj\Debug\OOP_1_2_.Form1.resources
+C:\Users\user\source\repos\OOP_1(2)\OOP_1(2)\obj\Debug\OOP_1_2_.Properties.Resources.resources
+C:\Users\user\source\repos\OOP_1(2)\OOP_1(2)\obj\Debug\OOP_1(2).csproj.GenerateResource.Cache
+C:\Users\user\source\repos\OOP_1(2)\OOP_1(2)\obj\Debug\OOP_1(2).csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\OOP_1(2)\OOP_1(2)\bin\Debug\OOP_1(2).exe.config
+C:\Users\user\source\repos\OOP_1(2)\OOP_1(2)\bin\Debug\OOP_1(2).exe
+C:\Users\user\source\repos\OOP_1(2)\OOP_1(2)\bin\Debug\OOP_1(2).pdb
+C:\Users\user\source\repos\OOP_1(2)\OOP_1(2)\obj\Debug\OOP_1(2).exe
+C:\Users\user\source\repos\OOP_1(2)\OOP_1(2)\obj\Debug\OOP_1(2).pdb
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №1\OOP_1(2)\OOP_1(2)\bin\Debug\OOP_1(2).exe.config
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №1\OOP_1(2)\OOP_1(2)\obj\Debug\OOP_1(2).exe
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №1\OOP_1(2)\OOP_1(2)\obj\Debug\OOP_1(2).pdb
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №1\OOP_1(2)\OOP_1(2)\bin\Debug\OOP_1(2).exe
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №1\OOP_1(2)\OOP_1(2)\bin\Debug\OOP_1(2).pdb
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №1\OOP_1(2)\OOP_1(2)\obj\Debug\OOP_1(2).csprojResolveAssemblyReference.cache
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №1\OOP_1(2)\OOP_1(2)\obj\Debug\OOP_1_2_.Form1.resources
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №1\OOP_1(2)\OOP_1(2)\obj\Debug\OOP_1_2_.Properties.Resources.resources
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №1\OOP_1(2)\OOP_1(2)\obj\Debug\OOP_1(2).csproj.GenerateResource.Cache
+D:\Универ\2 КУРС\4 семестр\ООП\Лабораторные работы\Лабораторная работа №1\OOP_1(2)\OOP_1(2)\obj\Debug\OOP_1(2).csproj.CoreCompileInputs.cache
