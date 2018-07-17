@@ -1,0 +1,14 @@
+D:\ООП_1\PatternOfBehavior\PatternOfBehavior\bin\Debug\PatternOfBehavior.exe.config
+D:\ООП_1\PatternOfBehavior\PatternOfBehavior\bin\Debug\PatternOfBehavior.exe
+D:\ООП_1\PatternOfBehavior\PatternOfBehavior\bin\Debug\PatternOfBehavior.pdb
+D:\ООП_1\PatternOfBehavior\PatternOfBehavior\obj\Debug\PatternOfBehavior.csprojAssemblyReference.cache
+D:\ООП_1\PatternOfBehavior\PatternOfBehavior\obj\Debug\PatternOfBehavior.csproj.CoreCompileInputs.cache
+D:\ООП_1\PatternOfBehavior\PatternOfBehavior\obj\Debug\PatternOfBehavior.exe
+D:\ООП_1\PatternOfBehavior\PatternOfBehavior\obj\Debug\PatternOfBehavior.pdb
+D:\Fit\4-ый семестр\ООП\PatternOfBehavior\PatternOfBehavior\bin\Debug\PatternOfBehavior.exe.config
+D:\Fit\4-ый семестр\ООП\PatternOfBehavior\PatternOfBehavior\bin\Debug\PatternOfBehavior.exe
+D:\Fit\4-ый семестр\ООП\PatternOfBehavior\PatternOfBehavior\bin\Debug\PatternOfBehavior.pdb
+D:\Fit\4-ый семестр\ООП\PatternOfBehavior\PatternOfBehavior\obj\Debug\PatternOfBehavior.csprojAssemblyReference.cache
+D:\Fit\4-ый семестр\ООП\PatternOfBehavior\PatternOfBehavior\obj\Debug\PatternOfBehavior.csproj.CoreCompileInputs.cache
+D:\Fit\4-ый семестр\ООП\PatternOfBehavior\PatternOfBehavior\obj\Debug\PatternOfBehavior.exe
+D:\Fit\4-ый семестр\ООП\PatternOfBehavior\PatternOfBehavior\obj\Debug\PatternOfBehavior.pdb

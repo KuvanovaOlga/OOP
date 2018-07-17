@@ -1,0 +1,21 @@
+D:\ООП_1\StructurPatterns\StructurPatterns\bin\Debug\StructurPatterns.exe.config
+D:\ООП_1\StructurPatterns\StructurPatterns\bin\Debug\StructurPatterns.exe
+D:\ООП_1\StructurPatterns\StructurPatterns\bin\Debug\StructurPatterns.pdb
+D:\ООП_1\StructurPatterns\StructurPatterns\obj\Debug\StructurPatterns.csprojAssemblyReference.cache
+D:\ООП_1\StructurPatterns\StructurPatterns\obj\Debug\StructurPatterns.csproj.CoreCompileInputs.cache
+D:\ООП_1\StructurPatterns\StructurPatterns\obj\Debug\StructurPatterns.exe
+D:\ООП_1\StructurPatterns\StructurPatterns\obj\Debug\StructurPatterns.pdb
+C:\Users\Dasha\Downloads\13\StructurPatterns\StructurPatterns\bin\Debug\StructurPatterns.exe.config
+C:\Users\Dasha\Downloads\13\StructurPatterns\StructurPatterns\bin\Debug\StructurPatterns.exe
+C:\Users\Dasha\Downloads\13\StructurPatterns\StructurPatterns\bin\Debug\StructurPatterns.pdb
+C:\Users\Dasha\Downloads\13\StructurPatterns\StructurPatterns\obj\Debug\StructurPatterns.csprojAssemblyReference.cache
+C:\Users\Dasha\Downloads\13\StructurPatterns\StructurPatterns\obj\Debug\StructurPatterns.csproj.CoreCompileInputs.cache
+C:\Users\Dasha\Downloads\13\StructurPatterns\StructurPatterns\obj\Debug\StructurPatterns.exe
+C:\Users\Dasha\Downloads\13\StructurPatterns\StructurPatterns\obj\Debug\StructurPatterns.pdb
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\StructurPatterns\StructurPatterns\bin\Debug\StructurPatterns.exe.config
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\StructurPatterns\StructurPatterns\bin\Debug\StructurPatterns.exe
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\StructurPatterns\StructurPatterns\bin\Debug\StructurPatterns.pdb
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\StructurPatterns\StructurPatterns\obj\Debug\StructurPatterns.csprojAssemblyReference.cache
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\StructurPatterns\StructurPatterns\obj\Debug\StructurPatterns.csproj.CoreCompileInputs.cache
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\StructurPatterns\StructurPatterns\obj\Debug\StructurPatterns.exe
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\StructurPatterns\StructurPatterns\obj\Debug\StructurPatterns.pdb

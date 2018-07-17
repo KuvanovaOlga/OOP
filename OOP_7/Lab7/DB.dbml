@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Kuv_UNIVER" Class="DB" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-HD33L5B\SQLEXPRESS;Initial Catalog=Kuv_UNIVER;Integrated Security=True" SettingsObjectName="Lab7.Properties.Settings" SettingsPropertyName="Kuv_UNIVERConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.STUDENT" Member="STUDENTs">
+    <Type Name="STUDENT">
+      <Column Name="IDSTUDENT" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IDGROUPS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NAME" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="BDAY" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="STAMP" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Column Name="INFO" Type="System.Xml.Linq.XElement" DbType="Xml" CanBeNull="true" />
+      <Column Name="FOTO" Type="System.Data.Linq.Binary" DbType="VarBinary(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MyImage" Member="MyImages">
+    <Type Name="MyImage">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Img" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FACULTY" Member="FACULTies">
+    <Type Name="FACULTY">
+      <Column Name="FACULTY" Member="FACULTY1" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FACULTY_NAME" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.TestFunction" Method="TestFunction" IsComposable="true">
+    <Parameter Name="id" Type="System.Int32" DbType="Int" />
+    <ElementType Name="TestFunctionResult">
+      <Column Name="IDSTUDENT" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IDGROUPS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NAME" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="BDAY" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="STAMP" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" IsVersion="true" />
+      <Column Name="INFO" Type="System.Xml.Linq.XElement" DbType="Xml" CanBeNull="true" />
+      <Column Name="FOTO" Type="System.Data.Linq.Binary" DbType="VarBinary(1)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

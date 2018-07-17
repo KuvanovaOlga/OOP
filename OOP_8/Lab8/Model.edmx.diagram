@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="66f5b6f59f9d4c14831bacb0c840558a" Name="Diagram1" ZoomLevel="95">
+        <EntityTypeShape EntityType="TMPKA_UNIVERModel.AUDITORIUM" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMPKA_UNIVERModel.AUDITORIUM_TYPE" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMPKA_UNIVERModel.FACULTY" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMPKA_UNIVERModel.GROUPS" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMPKA_UNIVERModel.MyImage" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMPKA_UNIVERModel.PROFESSION" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMPKA_UNIVERModel.PULPIT" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMPKA_UNIVERModel.STUDENT" Width="1.5" PointX="7.5" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMPKA_UNIVERModel.SUBJECT" Width="1.5" PointX="5.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMPKA_UNIVERModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMPKA_UNIVERModel.TEACHER" Width="1.5" PointX="5.25" PointY="11.75" IsExpanded="true" />
+        <AssociationConnector Association="TMPKA_UNIVERModel.AUDITORIUM_AUDITORIUM_TYPE_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="TMPKA_UNIVERModel.GROUPS_FACULTY_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="TMPKA_UNIVERModel.PROFESSION_FACULTY_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="TMPKA_UNIVERModel.PULPIT_FACULTY_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="TMPKA_UNIVERModel.GROUPS_PROFESSION_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="TMPKA_UNIVERModel.STUDENT_GROUP_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="TMPKA_UNIVERModel.SUBJECT_PULPIT_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="TMPKA_UNIVERModel.TEACHER_PULPIT_FK" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

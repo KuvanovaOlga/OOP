@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TMPKA_UNIVERModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AUDITORIUM">
+    <Key>
+      <PropertyRef Name="AUDITORIUM" />
+    </Key>
+    <Property Name="AUDITORIUM" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="AUDITORIUM_TYPE" Type="char" MaxLength="10" />
+    <Property Name="AUDITORIUM_CAPACITY" Type="int" />
+    <Property Name="AUDITORIUM_NAME" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="AUDITORIUM_TYPE">
+    <Key>
+      <PropertyRef Name="AUDITORIUM_TYPE" />
+    </Key>
+    <Property Name="AUDITORIUM_TYPE" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="AUDITORIUM_TYPENAME" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="FACULTY">
+    <Key>
+      <PropertyRef Name="FACULTY" />
+    </Key>
+    <Property Name="FACULTY" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="FACULTY_NAME" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="GROUPS">
+    <Key>
+      <PropertyRef Name="IDGROUP" />
+    </Key>
+    <Property Name="IDGROUP" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FACULTY" Type="char" MaxLength="10" />
+    <Property Name="PROFESSION" Type="char" MaxLength="20" />
+    <Property Name="YEAR_FIRST" Type="smallint" />
+  </EntityType>
+  <EntityType Name="MyImage">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Img" Type="image" />
+  </EntityType>
+  <EntityType Name="PROFESSION">
+    <Key>
+      <PropertyRef Name="PROFESSION" />
+    </Key>
+    <Property Name="PROFESSION" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="FACULTY" Type="char" MaxLength="10" />
+    <Property Name="PROFESSION_NAME" Type="varchar" MaxLength="100" />
+    <Property Name="QUALIFICATION" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'TMPKA_UNIVER.dbo.PROGRESS' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="PROGRESS">
+          <Property Name="SUBJECT" Type="char" MaxLength="10" />
+          <Property Name="IDSTUDENT" Type="int" />
+          <Property Name="PDATE" Type="date" />
+          <Property Name="NOTE" Type="int" />
+        </EntityType>-->
+  <EntityType Name="PULPIT">
+    <Key>
+      <PropertyRef Name="PULPIT" />
+    </Key>
+    <Property Name="PULPIT" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="PULPIT_NAME" Type="varchar" MaxLength="100" />
+    <Property Name="FACULTY" Type="char" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="STUDENT">
+    <Key>
+      <PropertyRef Name="IDSTUDENT" />
+    </Key>
+    <Property Name="IDSTUDENT" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDGROUP" Type="int" />
+    <Property Name="NAME" Type="nvarchar" MaxLength="100" />
+    <Property Name="BDAY" Type="date" />
+    <Property Name="STAMP" Type="timestamp" StoreGeneratedPattern="Computed" Nullable="false" />
+    <Property Name="INFO" Type="xml" />
+    <Property Name="FOTO" Type="varbinary" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="SUBJECT">
+    <Key>
+      <PropertyRef Name="SUBJECT" />
+    </Key>
+    <Property Name="SUBJECT" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="SUBJECT_NAME" Type="varchar" MaxLength="100" />
+    <Property Name="PULPIT" Type="char" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TEACHER">
+    <Key>
+      <PropertyRef Name="TEACHER" />
+    </Key>
+    <Property Name="TEACHER" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="TEACHER_NAME" Type="varchar" MaxLength="100" />
+    <Property Name="GENDER" Type="char" MaxLength="1" />
+    <Property Name="PULPIT" Type="char" MaxLength="20" />
+  </EntityType>
+  <Association Name="AUDITORIUM_AUDITORIUM_TYPE_FK">
+    <End Role="AUDITORIUM_TYPE" Type="Self.AUDITORIUM_TYPE" Multiplicity="0..1" />
+    <End Role="AUDITORIUM" Type="Self.AUDITORIUM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AUDITORIUM_TYPE">
+        <PropertyRef Name="AUDITORIUM_TYPE" />
+      </Principal>
+      <Dependent Role="AUDITORIUM">
+        <PropertyRef Name="AUDITORIUM_TYPE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GROUPS_FACULTY_FK">
+    <End Role="FACULTY" Type="Self.FACULTY" Multiplicity="0..1" />
+    <End Role="GROUPS" Type="Self.GROUPS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FACULTY">
+        <PropertyRef Name="FACULTY" />
+      </Principal>
+      <Dependent Role="GROUPS">
+        <PropertyRef Name="FACULTY" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="GROUPS_PROFESSION_FK">
+    <End Role="PROFESSION" Type="Self.PROFESSION" Multiplicity="0..1" />
+    <End Role="GROUPS" Type="Self.GROUPS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PROFESSION">
+        <PropertyRef Name="PROFESSION" />
+      </Principal>
+      <Dependent Role="GROUPS">
+        <PropertyRef Name="PROFESSION" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="PROFESSION_FACULTY_FK">
+    <End Role="FACULTY" Type="Self.FACULTY" Multiplicity="0..1" />
+    <End Role="PROFESSION" Type="Self.PROFESSION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FACULTY">
+        <PropertyRef Name="FACULTY" />
+      </Principal>
+      <Dependent Role="PROFESSION">
+        <PropertyRef Name="FACULTY" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <!--Errors Found During Generation:
+error 6004: The table 'TMPKA_UNIVER.dbo.PROGRESS' is referenced by a relationship, but cannot be found.
+        <Association Name="PROGRESS_IDSTUDENT_FK" />-->
+  <!--Errors Found During Generation:
+error 6004: The table 'TMPKA_UNIVER.dbo.PROGRESS' is referenced by a relationship, but cannot be found.
+        <Association Name="PROGRESS_SUBJECT_FK" />-->
+  <Association Name="PULPIT_FACULTY_FK">
+    <End Role="FACULTY" Type="Self.FACULTY" Multiplicity="0..1" />
+    <End Role="PULPIT" Type="Self.PULPIT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FACULTY">
+        <PropertyRef Name="FACULTY" />
+      </Principal>
+      <Dependent Role="PULPIT">
+        <PropertyRef Name="FACULTY" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="STUDENT_GROUP_FK">
+    <End Role="GROUPS" Type="Self.GROUPS" Multiplicity="0..1" />
+    <End Role="STUDENT" Type="Self.STUDENT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GROUPS">
+        <PropertyRef Name="IDGROUP" />
+      </Principal>
+      <Dependent Role="STUDENT">
+        <PropertyRef Name="IDGROUP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SUBJECT_PULPIT_FK">
+    <End Role="PULPIT" Type="Self.PULPIT" Multiplicity="0..1" />
+    <End Role="SUBJECT" Type="Self.SUBJECT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PULPIT">
+        <PropertyRef Name="PULPIT" />
+      </Principal>
+      <Dependent Role="SUBJECT">
+        <PropertyRef Name="PULPIT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TEACHER_PULPIT_FK">
+    <End Role="PULPIT" Type="Self.PULPIT" Multiplicity="0..1" />
+    <End Role="TEACHER" Type="Self.TEACHER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PULPIT">
+        <PropertyRef Name="PULPIT" />
+      </Principal>
+      <Dependent Role="TEACHER">
+        <PropertyRef Name="PULPIT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="TestFunction" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="id" Type="int" Mode="In" />
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="IDSTUDENT" Type="int" Nullable="false" />
+          <Property Name="IDGROUP" Type="int" />
+          <Property Name="NAME" Type="nvarchar" MaxLength="100" />
+          <Property Name="BDAY" Type="date" />
+          <Property Name="STAMP" Type="timestamp" Nullable="false" />
+          <Property Name="INFO" Type="xml" />
+          <Property Name="FOTO" Type="varbinary" MaxLength="1" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <EntityContainer Name="TMPKA_UNIVERModelStoreContainer">
+    <EntitySet Name="AUDITORIUM" EntityType="Self.AUDITORIUM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AUDITORIUM_TYPE" EntityType="Self.AUDITORIUM_TYPE" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="FACULTY" EntityType="Self.FACULTY" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GROUPS" EntityType="Self.GROUPS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MyImage" EntityType="Self.MyImage" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PROFESSION" EntityType="Self.PROFESSION" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PULPIT" EntityType="Self.PULPIT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="STUDENT" EntityType="Self.STUDENT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SUBJECT" EntityType="Self.SUBJECT" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TEACHER" EntityType="Self.TEACHER" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="AUDITORIUM_AUDITORIUM_TYPE_FK" Association="Self.AUDITORIUM_AUDITORIUM_TYPE_FK">
+      <End Role="AUDITORIUM_TYPE" EntitySet="AUDITORIUM_TYPE" />
+      <End Role="AUDITORIUM" EntitySet="AUDITORIUM" />
+    </AssociationSet>
+    <AssociationSet Name="GROUPS_FACULTY_FK" Association="Self.GROUPS_FACULTY_FK">
+      <End Role="FACULTY" EntitySet="FACULTY" />
+      <End Role="GROUPS" EntitySet="GROUPS" />
+    </AssociationSet>
+    <AssociationSet Name="GROUPS_PROFESSION_FK" Association="Self.GROUPS_PROFESSION_FK">
+      <End Role="PROFESSION" EntitySet="PROFESSION" />
+      <End Role="GROUPS" EntitySet="GROUPS" />
+    </AssociationSet>
+    <AssociationSet Name="PROFESSION_FACULTY_FK" Association="Self.PROFESSION_FACULTY_FK">
+      <End Role="FACULTY" EntitySet="FACULTY" />
+      <End Role="PROFESSION" EntitySet="PROFESSION" />
+    </AssociationSet>
+    <AssociationSet Name="PULPIT_FACULTY_FK" Association="Self.PULPIT_FACULTY_FK">
+      <End Role="FACULTY" EntitySet="FACULTY" />
+      <End Role="PULPIT" EntitySet="PULPIT" />
+    </AssociationSet>
+    <AssociationSet Name="STUDENT_GROUP_FK" Association="Self.STUDENT_GROUP_FK">
+      <End Role="GROUPS" EntitySet="GROUPS" />
+      <End Role="STUDENT" EntitySet="STUDENT" />
+    </AssociationSet>
+    <AssociationSet Name="SUBJECT_PULPIT_FK" Association="Self.SUBJECT_PULPIT_FK">
+      <End Role="PULPIT" EntitySet="PULPIT" />
+      <End Role="SUBJECT" EntitySet="SUBJECT" />
+    </AssociationSet>
+    <AssociationSet Name="TEACHER_PULPIT_FK" Association="Self.TEACHER_PULPIT_FK">
+      <End Role="PULPIT" EntitySet="PULPIT" />
+      <End Role="TEACHER" EntitySet="TEACHER" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

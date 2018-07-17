@@ -1,0 +1,82 @@
+C:\Users\User\source\repos\Lab8\Lab8\obj\Debug\Lab8.csprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\Lab8\Lab8\obj\Debug\MainWindow.g.cs
+C:\Users\User\source\repos\Lab8\Lab8\obj\Debug\App.g.cs
+C:\Users\User\source\repos\Lab8\Lab8\obj\Debug\Lab8_MarkupCompile.cache
+C:\Users\User\source\repos\Lab8\Lab8\obj\Debug\Lab8_MarkupCompile.lref
+C:\Users\User\source\repos\Lab8\Lab8\bin\Debug\Lab8.exe.config
+C:\Users\User\source\repos\Lab8\Lab8\bin\Debug\Lab8.exe
+C:\Users\User\source\repos\Lab8\Lab8\bin\Debug\Lab8.pdb
+C:\Users\User\source\repos\Lab8\Lab8\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\Lab8\Lab8\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\Lab8\Lab8\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\Lab8\Lab8\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\Lab8\Lab8\obj\Debug\MainWindow.baml
+C:\Users\User\source\repos\Lab8\Lab8\obj\Debug\Lab8.g.resources
+C:\Users\User\source\repos\Lab8\Lab8\obj\Debug\Lab8.Properties.Resources.resources
+C:\Users\User\source\repos\Lab8\Lab8\obj\Debug\Lab8.csproj.GenerateResource.Cache
+C:\Users\User\source\repos\Lab8\Lab8\obj\Debug\Lab8.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Lab8\Lab8\obj\Debug\Lab8.exe
+C:\Users\User\source\repos\Lab8\Lab8\obj\Debug\Lab8.pdb
+C:\Users\User\source\repos\Lab8\Lab8\obj\Debug\Lab8_Content.g.cs
+C:\Users\Buqz\Desktop\lab8\Lab8\bin\Debug\Lab8.exe.config
+C:\Users\Buqz\Desktop\lab8\Lab8\bin\Debug\Lab8.exe
+C:\Users\Buqz\Desktop\lab8\Lab8\bin\Debug\Lab8.pdb
+C:\Users\Buqz\Desktop\lab8\Lab8\bin\Debug\EntityFramework.dll
+C:\Users\Buqz\Desktop\lab8\Lab8\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Buqz\Desktop\lab8\Lab8\bin\Debug\EntityFramework.xml
+C:\Users\Buqz\Desktop\lab8\Lab8\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Buqz\Desktop\lab8\Lab8\obj\Debug\Lab8.csprojResolveAssemblyReference.cache
+C:\Users\Buqz\Desktop\lab8\Lab8\obj\Debug\MainWindow.g.cs
+C:\Users\Buqz\Desktop\lab8\Lab8\obj\Debug\App.g.cs
+C:\Users\Buqz\Desktop\lab8\Lab8\obj\Debug\Lab8_Content.g.cs
+C:\Users\Buqz\Desktop\lab8\Lab8\obj\Debug\Lab8_MarkupCompile.cache
+C:\Users\Buqz\Desktop\lab8\Lab8\obj\Debug\Lab8_MarkupCompile.lref
+C:\Users\Buqz\Desktop\lab8\Lab8\obj\Debug\MainWindow.baml
+C:\Users\Buqz\Desktop\lab8\Lab8\obj\Debug\Lab8.g.resources
+C:\Users\Buqz\Desktop\lab8\Lab8\obj\Debug\Lab8.Properties.Resources.resources
+C:\Users\Buqz\Desktop\lab8\Lab8\obj\Debug\Lab8.csproj.GenerateResource.Cache
+C:\Users\Buqz\Desktop\lab8\Lab8\obj\Debug\Lab8.csproj.CoreCompileInputs.cache
+C:\Users\Buqz\Desktop\lab8\Lab8\obj\Debug\Lab8.exe
+C:\Users\Buqz\Desktop\lab8\Lab8\obj\Debug\Lab8.pdb
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\bin\Debug\Lab8.exe.config
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\bin\Debug\Lab8.exe
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\bin\Debug\Lab8.pdb
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\bin\Debug\EntityFramework.dll
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\bin\Debug\EntityFramework.SqlServer.dll
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\bin\Debug\EntityFramework.xml
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\bin\Debug\EntityFramework.SqlServer.xml
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\obj\Debug\Lab8.csprojResolveAssemblyReference.cache
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\obj\Debug\MainWindow.g.cs
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\obj\Debug\App.g.cs
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\obj\Debug\Lab8_Content.g.cs
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\obj\Debug\Lab8_MarkupCompile.cache
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\obj\Debug\Lab8_MarkupCompile.lref
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\obj\Debug\MainWindow.baml
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\obj\Debug\Lab8.g.resources
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\obj\Debug\Lab8.Properties.Resources.resources
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\obj\Debug\Lab8.csproj.GenerateResource.cache
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\obj\Debug\Lab8.csproj.CoreCompileInputs.cache
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\obj\Debug\Lab8.csproj.CopyComplete
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\obj\Debug\Lab8.exe
+D:\POIT\2 kurs\4 sem\C#\lab8\Lab8\obj\Debug\Lab8.pdb
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\bin\Debug\Lab8.exe.config
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\bin\Debug\Lab8.exe
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\bin\Debug\Lab8.pdb
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\bin\Debug\EntityFramework.dll
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\bin\Debug\EntityFramework.SqlServer.dll
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\bin\Debug\EntityFramework.xml
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\bin\Debug\EntityFramework.SqlServer.xml
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\obj\Debug\Lab8.csprojResolveAssemblyReference.cache
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\obj\Debug\MainWindow.g.cs
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\obj\Debug\App.g.cs
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\obj\Debug\Lab8_Content.g.cs
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\obj\Debug\Lab8_MarkupCompile.cache
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\obj\Debug\Lab8_MarkupCompile.lref
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\obj\Debug\MainWindow.baml
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\obj\Debug\Lab8.g.resources
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\obj\Debug\Lab8.Properties.Resources.resources
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\obj\Debug\Lab8.csproj.GenerateResource.cache
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\obj\Debug\Lab8.csproj.CoreCompileInputs.cache
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\obj\Debug\Lab8.csproj.CopyComplete
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\obj\Debug\Lab8.exe
+D:\University\2 курс\4 семестр\OOP\C\lab8\Lab8\obj\Debug\Lab8.pdb

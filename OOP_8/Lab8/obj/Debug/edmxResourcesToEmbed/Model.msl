@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TMPKA_UNIVERModelStoreContainer" CdmEntityContainer="TMPKA_UNIVEREntities">
+    <EntitySetMapping Name="AUDITORIUM">
+      <EntityTypeMapping TypeName="TMPKA_UNIVERModel.AUDITORIUM">
+        <MappingFragment StoreEntitySet="AUDITORIUM">
+          <ScalarProperty Name="AUDITORIUM1" ColumnName="AUDITORIUM" />
+          <ScalarProperty Name="AUDITORIUM_TYPE" ColumnName="AUDITORIUM_TYPE" />
+          <ScalarProperty Name="AUDITORIUM_CAPACITY" ColumnName="AUDITORIUM_CAPACITY" />
+          <ScalarProperty Name="AUDITORIUM_NAME" ColumnName="AUDITORIUM_NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AUDITORIUM_TYPE">
+      <EntityTypeMapping TypeName="TMPKA_UNIVERModel.AUDITORIUM_TYPE">
+        <MappingFragment StoreEntitySet="AUDITORIUM_TYPE">
+          <ScalarProperty Name="AUDITORIUM_TYPE1" ColumnName="AUDITORIUM_TYPE" />
+          <ScalarProperty Name="AUDITORIUM_TYPENAME" ColumnName="AUDITORIUM_TYPENAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FACULTY">
+      <EntityTypeMapping TypeName="TMPKA_UNIVERModel.FACULTY">
+        <MappingFragment StoreEntitySet="FACULTY">
+          <ScalarProperty Name="FACULTY1" ColumnName="FACULTY" />
+          <ScalarProperty Name="FACULTY_NAME" ColumnName="FACULTY_NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GROUPS">
+      <EntityTypeMapping TypeName="TMPKA_UNIVERModel.GROUPS">
+        <MappingFragment StoreEntitySet="GROUPS">
+          <ScalarProperty Name="IDGROUP" ColumnName="IDGROUP" />
+          <ScalarProperty Name="FACULTY" ColumnName="FACULTY" />
+          <ScalarProperty Name="PROFESSION" ColumnName="PROFESSION" />
+          <ScalarProperty Name="YEAR_FIRST" ColumnName="YEAR_FIRST" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MyImage">
+      <EntityTypeMapping TypeName="TMPKA_UNIVERModel.MyImage">
+        <MappingFragment StoreEntitySet="MyImage">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Img" ColumnName="Img" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROFESSION">
+      <EntityTypeMapping TypeName="TMPKA_UNIVERModel.PROFESSION">
+        <MappingFragment StoreEntitySet="PROFESSION">
+          <ScalarProperty Name="PROFESSION1" ColumnName="PROFESSION" />
+          <ScalarProperty Name="FACULTY" ColumnName="FACULTY" />
+          <ScalarProperty Name="PROFESSION_NAME" ColumnName="PROFESSION_NAME" />
+          <ScalarProperty Name="QUALIFICATION" ColumnName="QUALIFICATION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PULPIT">
+      <EntityTypeMapping TypeName="TMPKA_UNIVERModel.PULPIT">
+        <MappingFragment StoreEntitySet="PULPIT">
+          <ScalarProperty Name="PULPIT1" ColumnName="PULPIT" />
+          <ScalarProperty Name="PULPIT_NAME" ColumnName="PULPIT_NAME" />
+          <ScalarProperty Name="FACULTY" ColumnName="FACULTY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STUDENT">
+      <EntityTypeMapping TypeName="TMPKA_UNIVERModel.STUDENT">
+        <MappingFragment StoreEntitySet="STUDENT">
+          <ScalarProperty Name="IDSTUDENT" ColumnName="IDSTUDENT" />
+          <ScalarProperty Name="IDGROUP" ColumnName="IDGROUP" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="BDAY" ColumnName="BDAY" />
+          <ScalarProperty Name="STAMP" ColumnName="STAMP" />
+          <ScalarProperty Name="INFO" ColumnName="INFO" />
+          <ScalarProperty Name="FOTO" ColumnName="FOTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SUBJECT">
+      <EntityTypeMapping TypeName="TMPKA_UNIVERModel.SUBJECT">
+        <MappingFragment StoreEntitySet="SUBJECT">
+          <ScalarProperty Name="SUBJECT1" ColumnName="SUBJECT" />
+          <ScalarProperty Name="SUBJECT_NAME" ColumnName="SUBJECT_NAME" />
+          <ScalarProperty Name="PULPIT" ColumnName="PULPIT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="TMPKA_UNIVERModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TEACHER">
+      <EntityTypeMapping TypeName="TMPKA_UNIVERModel.TEACHER">
+        <MappingFragment StoreEntitySet="TEACHER">
+          <ScalarProperty Name="TEACHER1" ColumnName="TEACHER" />
+          <ScalarProperty Name="TEACHER_NAME" ColumnName="TEACHER_NAME" />
+          <ScalarProperty Name="GENDER" ColumnName="GENDER" />
+          <ScalarProperty Name="PULPIT" ColumnName="PULPIT" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionName="TMPKA_UNIVERModel.Store.TestFunction" FunctionImportName="TestFunction">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TMPKA_UNIVERModel.TestFunction_Result">
+          <ScalarProperty Name="IDSTUDENT" ColumnName="IDSTUDENT" />
+          <ScalarProperty Name="IDGROUP" ColumnName="IDGROUP" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="BDAY" ColumnName="BDAY" />
+          <ScalarProperty Name="STAMP" ColumnName="STAMP" />
+          <ScalarProperty Name="INFO" ColumnName="INFO" />
+          <ScalarProperty Name="FOTO" ColumnName="FOTO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="TMPKA_UNIVERModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="TMPKA_UNIVERModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="TMPKA_UNIVERModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="TMPKA_UNIVERModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TMPKA_UNIVERModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="TMPKA_UNIVERModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="TMPKA_UNIVERModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="TMPKA_UNIVERModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="TMPKA_UNIVERModel.Store.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>

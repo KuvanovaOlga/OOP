@@ -1,0 +1,34 @@
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\bin\Debug\lab12(patterns).exe.config
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\bin\Debug\lab12(patterns).exe
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\bin\Debug\lab12(patterns).pdb
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\obj\Debug\lab12(patterns).csprojResolveAssemblyReference.cache
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\obj\Debug\MainWindow.g.cs
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\obj\Debug\App.g.cs
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\obj\Debug\lab12(patterns)_MarkupCompile.cache
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\obj\Debug\lab12(patterns)_MarkupCompile.lref
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\obj\Debug\MainWindow.baml
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\obj\Debug\lab12(patterns).g.resources
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\obj\Debug\lab12_patterns_.Properties.Resources.resources
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\obj\Debug\lab12(patterns).csproj.GenerateResource.Cache
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\obj\Debug\lab12(patterns).csproj.CoreCompileInputs.cache
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\obj\Debug\lab12(patterns).exe
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\obj\Debug\lab12(patterns).pdb
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\obj\Debug\ToolsWindow.g.cs
+C:\Users\rabts\source\repos\lab12(patterns)\lab12(patterns)\obj\Debug\ToolsWindow.baml
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\bin\Debug\lab12(patterns).exe.config
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\bin\Debug\lab12(patterns).exe
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\bin\Debug\lab12(patterns).pdb
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\obj\Debug\lab12(patterns).csprojAssemblyReference.cache
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\obj\Debug\MainWindow.g.cs
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\obj\Debug\ToolsWindow.g.cs
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\obj\Debug\App.g.cs
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\obj\Debug\lab12(patterns)_MarkupCompile.cache
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\obj\Debug\lab12(patterns)_MarkupCompile.lref
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\obj\Debug\MainWindow.baml
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\obj\Debug\ToolsWindow.baml
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\obj\Debug\lab12(patterns).g.resources
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\obj\Debug\lab12_patterns_.Properties.Resources.resources
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\obj\Debug\lab12(patterns).csproj.GenerateResource.cache
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\obj\Debug\lab12(patterns).csproj.CoreCompileInputs.cache
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\obj\Debug\lab12(patterns).exe
+D:\University\2 курс\4 семестр\ООП\Лабораторные работы\lab12(patterns)\lab12(patterns)\obj\Debug\lab12(patterns).pdb
